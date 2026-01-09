@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "URL to PDF Converter",
+  "version": "1.0",
+  "description": "Convert a webpage URL to PDF",
+  "permissions": ["downloads", "activeTab"],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
+
+
+
+

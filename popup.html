@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>URL to PDF</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+    <div class="header">
+      
+      <h1>URL to PDF 📄</h1>
+      <p>Convert any webpage into a PDF</p>
+    </div>
+
+    <!-- URL Input -->
+    <div class="field">
+      <label for="urlInput">Webpage URL</label>
+      <input
+        type="text"
+        id="urlInput"
+        placeholder="https://example.com"
+      />
+    </div>
+
+    <!-- Options -->
+    <div class="options">
+      <div class="field">
+        <label for="pageSize">📐 Page Size</label>
+        <select id="pageSize">
+          <option value="A4">A4</option>
+          <option value="Letter">Letter</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="orientation">🧭 Orientation</label>
+        <select id="orientation">
+          <option value="portrait">Portrait</option>
+          <option value="landscape">Landscape</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Action -->
+    <button id="convertBtn">Convert to PDF</button>
+
+    <!-- Status -->
+    <p id="status"></p>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
+
+
+
+
