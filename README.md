@@ -87,15 +87,12 @@ node server.js
 ```
 
 Backend will start at:
-
-```
 http://localhost:3000
-```
 
 ---
 
 ### 3. Load the Extension
-
+```
 1. Open Chrome / Brave
 2. Go to `chrome://extensions`
 3. Enable **Developer mode**
@@ -103,7 +100,7 @@ http://localhost:3000
 5. Select the extension folder
 
 ---
-
+```
 ## Demo Video
 Demo video link - https://drive.google.com/file/d/1MLmSI64HHvBQThvFdeuBt3OgV07PCDWP/view?usp=drivesdk
  
