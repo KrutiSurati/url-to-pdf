@@ -51,7 +51,7 @@ This separation keeps the extension lightweight and secure.
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 **Frontend (Extension)**
 
@@ -69,7 +69,7 @@ This separation keeps the extension lightweight and secure.
 
 ##  Getting Started
 
-### 1️⃣ Clone the Repository
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/KrutiSurati/url-to-pdf
@@ -78,7 +78,7 @@ cd url-to-pdf
 
 ---
 
-### 2️⃣ Backend Setup
+### 2. Backend Setup
 
 ```bash
 cd backend
@@ -94,7 +94,7 @@ http://localhost:3000
 
 ---
 
-### 3️⃣ Load the Extension
+### 3. Load the Extension
 
 1. Open Chrome / Brave
 2. Go to `chrome://extensions`
@@ -104,17 +104,13 @@ http://localhost:3000
 
 ---
 
-## 📸 Screenshots
-
-> (Add 2–3 screenshots here)
-
-* Extension popup UI
-* Options selection
-* PDF download result
+## Demo Video
+Demo video link - https://drive.google.com/file/d/1MLmSI64HHvBQThvFdeuBt3OgV07PCDWP/view?usp=drivesdk
+ 
 
 ---
 
-## ⚠️ Known Limitations
+##  Known Limitations
 
 * Only **public, accessible webpages** can be converted
 * Pages requiring login/authentication may not render correctly
@@ -125,7 +121,7 @@ These limitations are inherent to browser security and Puppeteer-based rendering
 
 ---
 
-## 🔐 Privacy & Security
+##  Privacy & Security
 
 * No user data is stored
 * No browsing history is logged
