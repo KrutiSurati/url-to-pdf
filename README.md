@@ -6,22 +6,22 @@ This project focuses on **clarity, real-world constraints, and good UX**, rather
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🔗 **Convert any webpage URL to PDF**
-* 🧠 **Automatically detects the current browser tab URL**
-* 📝 **Downloads PDF using the page title as filename** (sanitized)
-* 📐 **Configurable PDF options**
+*  **Convert any webpage URL to PDF**
+*  **Automatically detects the current browser tab URL**
+*  **Downloads PDF using the page title as filename** (sanitized)
+*  **Configurable PDF options**
 
   * Page Size: A4 / Letter
   * Orientation: Portrait / Landscape
-* ⏳ **Loading state & disabled button during conversion**
-* 🎨 **Clean, pastel UI with automatic dark mode support**
-* ⚠️ **Input validation for invalid URLs**
+*  **Loading state & disabled button during conversion**
+*  **Clean, pastel UI with automatic dark mode support**
+*  **Input validation for invalid URLs**
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```
 Chrome Extension (Frontend)
@@ -67,12 +67,12 @@ This separation keeps the extension lightweight and secure.
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1️⃣ Clone the Repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/KrutiSurati/url-to-pdf
 cd url-to-pdf
 ```
 
@@ -134,7 +134,7 @@ These limitations are inherent to browser security and Puppeteer-based rendering
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 * Students saving articles for offline study
 * Developers exporting documentation pages
@@ -143,7 +143,7 @@ These limitations are inherent to browser security and Puppeteer-based rendering
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 * Cloud-hosted backend
 * Batch URL conversion
@@ -153,9 +153,7 @@ These limitations are inherent to browser security and Puppeteer-based rendering
 
 ---
 
-## 📌 Design Philosophy
-
-This project is **intentionally kept minimal** to prioritize:
+##  Design Philosophy
 
 * Stability
 * Maintainability
@@ -164,17 +162,10 @@ This project is **intentionally kept minimal** to prioritize:
 
 ---
 
-## 🧑‍💻 Author
+##  Author
 
 **Kruti Surati**
+**Production and Industrial Engineeering, 3y**
 
----
-
-## ⭐ Acknowledgements
-
-* Puppeteer documentation
-* Chrome Extensions API
-
----
 
 > *This project demonstrates practical full-stack development, thoughtful UX decisions, and an understanding of real-world browser constraints.*
