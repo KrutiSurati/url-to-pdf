@@ -61,13 +61,14 @@ body {
 .field {
   display: flex;
   flex-direction: column;
-  margin-bottom: 10px;
+  margin-bottom: 12px;
 }
 
 label {
   font-size: 12px;
   font-weight: 600;
   margin-bottom: 4px;
+  color: #c7d2fe;
 }
 
 input,
@@ -75,9 +76,10 @@ select {
   padding: 8px;
   font-size: 13px;
   border-radius: 8px;
-  border: 1px solid var(--border);
-  background: transparent;
-  color: var(--text);
+  border: 1px solid #334155;
+  background: #0f172a;
+  color: #e5e7eb;
+  z-index: 2;
 }
 
 input::placeholder {
