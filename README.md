@@ -1,6 +1,6 @@
 # 📄 URL to PDF Chrome Extension
 
-A clean, minimal Chrome/Brave extension that converts any public webpage into a downloadable **PDF** using a local **Node.js + Puppeteer** backend.
+A clean, minimal Chrome extension that converts any public webpage into a downloadable **PDF** using a local **Node.js + Puppeteer** backend.
 
 This project focuses on **clarity, real-world constraints, and good UX**, rather than unnecessary feature bloat.
 
