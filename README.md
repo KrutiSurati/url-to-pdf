@@ -161,8 +161,6 @@ These limitations are inherent to browser security and Puppeteer-based rendering
 ##  Author
 
 **Kruti Surati**
-*
-**Production and Industrial Engineeering, 3y**
 
 
 > *This project demonstrates practical full-stack development, thoughtful UX decisions, and an understanding of real-world browser constraints.*
