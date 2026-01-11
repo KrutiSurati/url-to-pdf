@@ -41,6 +41,7 @@ Node.js Backend (Express)
 Puppeteer (Headless Chromium)
         |
         |
+        ▼
 EPUB generator- Text based EPUB
         │
         ▼
@@ -61,7 +62,7 @@ This separation keeps the extension lightweight and secure.
 
 ---
 
-## 📚 EPUB Design Decision
+##  EPUB Design Decision
 
 EPUB conversion focuses on **clean, distraction-free reading** by extracting **textual content only**.
 
