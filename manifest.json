@@ -1,13 +1,14 @@
 {
   "manifest_version": 3,
-  "name": "URL to PDF Converter",
-  "version": "1.0",
-  "description": "Convert a webpage URL to PDF",
+  "name": "URL to PDF / EPUB Converter",
+  "version": "1.1",
+  "description": "Convert any webpage URL into PDF or EPUB format",
   "permissions": ["downloads", "activeTab"],
   "action": {
     "default_popup": "popup.html"
   }
 }
+
 
 
 

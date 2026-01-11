@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="UTF-8" />
-  <title>URL to PDF</title>
+  <title>URL Converter</title>
   <link rel="stylesheet" href="popup.css">
 </head>
 <body>
@@ -10,9 +10,8 @@
 
     <!-- Header -->
     <div class="header">
-      
-      <h1>URL to PDF 📄</h1>
-      <p>Convert any webpage into a PDF</p>
+      <h1>URL Converter 📄</h1>
+      <p>Convert webpages into PDF or EPUB</p>
     </div>
 
     <!-- URL Input -->
@@ -23,6 +22,15 @@
         id="urlInput"
         placeholder="https://example.com"
       />
+    </div>
+
+    <!-- Format -->
+    <div class="field">
+      <label for="format">📦 Output Format</label>
+      <select id="format">
+        <option value="pdf">PDF</option>
+        <option value="epub">EPUB</option>
+      </select>
     </div>
 
     <!-- Options -->
@@ -45,7 +53,7 @@
     </div>
 
     <!-- Action -->
-    <button id="convertBtn">Convert to PDF</button>
+    <button id="convertBtn">Convert</button>
 
     <!-- Status -->
     <p id="status"></p>
@@ -55,6 +63,7 @@
   <script src="popup.js"></script>
 </body>
 </html>
+
 
 
 
