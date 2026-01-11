@@ -1,23 +1,29 @@
-# 📄 URL to PDF Chrome Extension
+# 📄 URL to PDF & EPUB Chrome Extension
 
-A clean, minimal Chrome extension that converts any public webpage into a downloadable **PDF** using a local **Node.js + Puppeteer** backend.
+A clean, minimal Chrome extension that converts any public webpage into a downloadable **PDF or EPUB** using a local **Node.js + Puppeteer** backend.
 
-This project focuses on **clarity, real-world constraints, and good UX**, rather than unnecessary feature bloat.
+This project focuses on **clarity, real-world constraints, and good UX**, focusing on reliable document generation rather than fragile feature bloat.
 
 ---
 
 ##  Features
 
 *  **Convert any webpage URL to PDF**
+*  **Convert any webpage URL to EPUB (text-focused)**
 *  **Automatically detects the current browser tab URL**
-*  **Downloads PDF using the page title as filename** (sanitized)
+*  **Downloads files using the page title as filename** (sanitized)
 *  **Configurable PDF options**
 
-  * Page Size: A4 / Letter
-  * Orientation: Portrait / Landscape
-*  **Loading state & disabled button during conversion**
-*  **Clean, pastel UI with automatic dark mode support**
-*  **Input validation for invalid URLs**
+##  Configurable Options (PDF)
+- Page Size: A4 / Letter
+- Orientation: Portrait / Landscape
+- Print background support
+
+##  User Experience
+- Clean, minimal UI
+- Automatic dark-mode support
+- Loading state & disabled button during conversion
+- Input validation for invalid URLs
 
 ---
 
@@ -26,15 +32,19 @@ This project focuses on **clarity, real-world constraints, and good UX**, rather
 ```
 Chrome Extension (Frontend)
         │
-        │ HTTP POST (URL + options)
+        │ HTTP POST (URL + options + format)
         ▼
 Node.js Backend (Express)
         │
+        | 
         ▼
 Puppeteer (Headless Chromium)
+        |
+        |
+EPUB generator- Text based EPUB
         │
         ▼
-Generated PDF → Downloaded to user
+Generated file → Downloaded to user
 ```
 
 ### Why a Backend?
@@ -51,12 +61,26 @@ This separation keeps the extension lightweight and secure.
 
 ---
 
+## 📚 EPUB Design Decision
+
+EPUB conversion focuses on **clean, distraction-free reading** by extracting **textual content only**.
+
+Images are intentionally excluded to ensure:
+- Better compatibility across websites
+- Stability with dynamic or lazy-loaded content
+- Avoidance of broken relative asset paths
+
+This mirrors real-world tools like Instapaper and Pocket.
+
+---
+
+
 ##  Tech Stack
 
 **Frontend (Extension)**
 
 * HTML
-* CSS (pastel, dark-mode aware UI)
+* CSS ( dark-mode aware UI)
 * JavaScript (Chrome Extension APIs)
 
 **Backend**
@@ -64,6 +88,8 @@ This separation keeps the extension lightweight and secure.
 * Node.js
 * Express.js
 * Puppeteer
+* EPUB generation utilities
+
 
 ---
 
@@ -118,6 +144,7 @@ Demo video link - https://drive.google.com/file/d/1MLmSI64HHvBQThvFdeuBt3OgV07PC
 * Students saving articles for offline study
 * Developers exporting documentation pages
 * Researchers archiving web content
+* Readers creating distraction-free EPUBs
 * Anyone needing clean PDFs from webpages
 
 ---
@@ -125,6 +152,7 @@ Demo video link - https://drive.google.com/file/d/1MLmSI64HHvBQThvFdeuBt3OgV07PC
 ##  Future Scope
 
 * Cloud-hosted backend
+* Image-embedded EPUB support
 * Batch URL conversion
 * Margin & scale controls
 * Header/footer with page numbers
